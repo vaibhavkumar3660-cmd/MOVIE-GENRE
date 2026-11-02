@@ -3,7 +3,7 @@
  * Example: const API_BASE = "https://cinemind-ai-api.onrender.com";
  * For local development leave it empty; Flask serves both frontend and API.
  */
-const API_BASE = "";
+const API_BASE = "https://movie-genre-89w9.onrender.com";
 
 const apiUrl = (path) => `${API_BASE}${path}`;
 const $ = (id) => document.getElementById(id);
